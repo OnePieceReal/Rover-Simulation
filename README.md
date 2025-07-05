@@ -51,7 +51,7 @@ This mimics a basic **proof-of-work** algorithm similar to blockchain mining.
 
 ---
 
-## 🚀 Getting Started (w/ FastAPI)
+##  🚀 Getting Started (w/ FastAPI)
 
 ### 🔧 Backend Setup (FastAPI Server)
 
