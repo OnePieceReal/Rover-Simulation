@@ -18,7 +18,7 @@
 - [🚀 Getting Started](#-getting-started)
   - [🔧 Backend Setup (FastAPI Server)](#-backend-setup-fastapi-server)
   - [🌐 Frontend Setup (React)](#-frontend-setup-react)
-- [📸 Preview/Result](#-preview-result)
+- [📸 Preview/Result](#-previewresult)
 
 ---
 
