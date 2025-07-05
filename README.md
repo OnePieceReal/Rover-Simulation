@@ -15,10 +15,10 @@
 - [📜 Project Description](#-project-description)
 - [🧭 Commands](#-commands)
 - [💣 Mine Disarmament](#-mine-disarmament)
-- [🚀 Getting Started (w/ FastAPI)](#-getting-started-fastapi)
+- [🚀 Getting Started (w/ FastAPI)](#-getting-started-w-fastapi)
   - [🔧 Backend Setup (FastAPI Server)](#-backend-setup-fastapi-server)
   - [🌐 Frontend Setup (React)](#-frontend-setup-react)
-- [🚀 Getting Started (w/ CLI)](#-getting-started-cli)  
+- [🚀 Getting Started (w/ CLI)](#-getting-started-w-cli)  
 - [📸 Preview / Result](#-preview--result)
 
 ---
