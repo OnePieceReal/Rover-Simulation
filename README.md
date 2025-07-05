@@ -18,7 +18,7 @@
 - [🚀 Getting Started (w/ FastAPI)](#-getting-started-fastapi)
   - [🔧 Backend Setup (FastAPI Server)](#-backend-setup-fastapi-server)
   - [🌐 Frontend Setup (React)](#-frontend-setup-react)
-- [🚀 Getting Started (w/ CLI)](#-getting-started-fastapi)  
+- [🚀 Getting Started (w/ CLI)](#-getting-started-cli)  
 - [📸 Preview / Result](#-preview--result)
 
 ---
@@ -77,6 +77,10 @@ npm install
 # Start the development server
 npm run dev
 ```
+🚀 Getting Started (w/ CLI)
+
+
+
 ### 📸 Preview / Result
 
 <p align="center">
