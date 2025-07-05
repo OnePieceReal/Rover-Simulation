@@ -100,7 +100,7 @@ npm run dev
 <p align="center">
   <img src="Preview/rover-10.PNG" alt="Mine Disarmament Sequence" width="800"/>
   <br/>
-  <em>Figure 4: Navigation path and disarmament sequence by Rover #10.</em>
+  <em>Figure 4:Navigation path and execution results for Rover #10.</em>
 </p>
 
 
