@@ -18,7 +18,7 @@
 - [🚀 Getting Started](#-getting-started)
   - [🔧 Backend Setup (FastAPI Server)](#-backend-setup-fastapi-server)
   - [🌐 Frontend Setup (React)](#-frontend-setup-react)
-- [📸 Preview/Result](#-previewresult)
+- [📸 Preview / Result](#-preview--result)
 
 ---
 
@@ -76,19 +76,30 @@ npm install
 # Start the development server
 npm run dev
 ```
-### 📸 Preview/Result
-
-
-<p align="center">
-  <img src="Preview/map-mine.PNG" width="800"/>
-</p>
+### 📸 Preview / Result
 
 <p align="center">
-  <img src="Preview/rover.PNG" width="800"/>
+  <img src="Preview/map-mine.PNG" alt="Minefield Map Visualization" width="800"/>
+  <br/>
+  <em>Figure 1: Initial minefield terrain with mine locations.</em>
 </p>
+
 <p align="center">
-  <img src="Preview/rover-8.PNG" width="800"/>
+  <img src="Preview/rover.PNG" alt="Rover Command Interface" width="800"/>
+  <br/>
+  <em>Figure 2: Rover command input interface and issued commands.</em>
 </p>
+
 <p align="center">
-  <img src="Preview/rover-10.PNG" width="800"/>
+  <img src="Preview/rover-8.PNG" alt="Rover Navigation Results" width="800"/>
+  <br/>
+  <em>Figure 3: Navigation path and execution results for Rover #8.</em>
 </p>
+
+<p align="center">
+  <img src="Preview/rover-10.PNG" alt="Mine Disarmament Sequence" width="800"/>
+  <br/>
+  <em>Figure 4: Navigation path and disarmament sequence by Rover #10.</em>
+</p>
+
+
