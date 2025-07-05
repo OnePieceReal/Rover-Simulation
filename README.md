@@ -15,9 +15,10 @@
 - [📜 Project Description](#-project-description)
 - [🧭 Commands](#-commands)
 - [💣 Mine Disarmament](#-mine-disarmament)
-- [🚀 Getting Started](#-getting-started)
+- [🚀 Getting Started (w/ FastAPI)](#-getting-started-fastapi)
   - [🔧 Backend Setup (FastAPI Server)](#-backend-setup-fastapi-server)
   - [🌐 Frontend Setup (React)](#-frontend-setup-react)
+- [🚀 Getting Started (w/ CLI)](#-getting-started-fastapi)  
 - [📸 Preview / Result](#-preview--result)
 
 ---
@@ -50,7 +51,7 @@ This mimics a basic **proof-of-work** algorithm similar to blockchain mining.
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Getting Started (w/ FastAPI)
 
 ### 🔧 Backend Setup (FastAPI Server)
 
