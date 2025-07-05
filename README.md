@@ -1,25 +1,68 @@
-# 🛰️ Rover Navigation and Mine Disarmament Simulator
+# 🛰️ 2D Rover Simulator
 
-This project simulates a rover navigating a 2D terrain scattered with hidden mines. The rover must interpret movement commands, avoid obstacles, and safely disarm mines using a brute-force hashing strategy.
+![FastAPI](https://img.shields.io/badge/FastAPI-0.115.1-green)
+![React](https://img.shields.io/badge/React-19%2B-blue)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-Messaging-orange)
+![gRPC](https://img.shields.io/badge/gRPC-Protocol-lightgrey)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.4%2B-teal)
+![Python](https://img.shields.io/badge/Python-3.11%2B-yellow)
 
-## 🚀 Project Description
+---
 
-The rover receives a sequence of commands to navigate the environment. Its mission is to move safely across the grid while detecting and disarming any mines it encounters.
+## 📑 Table of Contents
 
-### Supported Commands
+- [📸 Preview](#-preview)
+- [📦 Technologies Used](#-technologies-used)
+- [📜 Project Description](#-project-description)
+- [🧭 Commands](#-commands)
+- [💣 Mine Disarmament](#-mine-disarmament)
+- [🚀 Getting Started](#-getting-started)
+  - [🔧 Backend Setup (FastAPI)](#-backend-setup-fastapi)
+  - [🌐 Frontend Setup (React)](#-frontend-setup-react)
+- [📁 Project Structure](#-project-structure)
+- [📚 License](#-license)
+
+---
+
+## 📜 Project Description
+
+This project simulates a 2D rover navigating a terrain filled with hidden mines. The rover interprets movement commands, avoids obstacles, and disarms mines using a proof-of-work-based hashing mechanism.
+
+---
+
+## 🧭 Commands
 
 - `L` — Turn the rover left
 - `R` — Turn the rover right
-- `M` — Move one step forward in the current direction
+- `M` — Move forward one step in the current direction
 - `D` — Dig and attempt to disarm a mine at the current location
 
-## 💣 Mine Disarmament Mechanism
+---
 
-Each mine is assigned a unique **serial number**. To disarm a mine, the rover must:
+## 💣 Mine Disarmament
 
-1. Generate a **PIN** and prepend it to the serial number.
-2. Hash the combined string using **SHA-256**.
-3. Check whether the hash starts with **six leading zeros (`000000`)**.
-4. Repeat with new PINs until a valid one is found.
+Each mine is associated with a **unique serial number**. To disarm it, the rover:
 
-This mechanism simulates a **proof-of-work** style brute-force process.
+1. Generates a random **PIN** and prepends it to the serial number.
+2. Hashes the result using **SHA-256**.
+3. Checks if the hash starts with **six leading zeros (`000000`)**.
+4. Repeats the process until successful.
+
+This mimics a basic **proof-of-work** algorithm similar to blockchain mining.
+
+---
+
+## 🚀 Getting Started
+
+### 🔧 Backend Setup (FastAPI)
+
+```bash
+# Install FastAPI and Uvicorn
+pip install fastapi==0.115.1 uvicorn==0.34.0
+
+# Run the FastAPI server
+uvicorn Fastapi_Rover_Server:app --reload
+
+# API Root: http://127.0.0.1:8000
+# Swagger UI: http://127.0.0.1:8000/docs
+
