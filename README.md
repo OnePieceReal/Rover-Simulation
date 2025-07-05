@@ -80,16 +80,27 @@ npm run dev
 ## 🚀 Getting Started (w/ CLI)
 
 ```bash
-# Navigate to the frontend directory
-cd frontend
+# Pull and run the official RabbitMQ image with the management plugin enabled
+docker run -d --hostname rabbitmq-host --name rabbitmq \
+  -p 5672:5672 -p 15672:15672 \
+  rabbitmq:3-management
 
-# Install all dependencies
-npm install
+# Install gRPC and tools
+pip install grpcio grpcio-tools protobuf
 
-# Start the development server
-npm run dev
+#If you have .proto files, generate the Python code:
+python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. your_file.proto
+
+#Launch the server
+python server.py
+
+#Launch a Rover Client
+python rover_client.py 3  # rover ID must be from (1–10)
+
+#Launch a Deminer(Run one or both deminer agents by passing 1 or 2 as a CLI argument.)
+python deminer.py 1  # For Deminer #1
+
 ```
-
 
 ### 📸 Preview / Result
 
