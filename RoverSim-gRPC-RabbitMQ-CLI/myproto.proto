@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+service GroundControl {
+    // Each rover gets the map of the land
+    rpc GetMap(RoverRequest) returns (MapResponse);
+
+    // Each rover gets a stream of commands
+    rpc GetCommands(RoverRequest) returns (CommandResponse);
+
+    // Retrieve the mine's serial number for each rover
+    rpc GetMineSerialNumber(RoverRequest) returns (MineSerialResponse);
+
+}
+
+// Define the request and response types
+message RoverRequest {
+    int32 rover_id = 1;  // Unique identifier for the rover
+}
+
+message MapResponse {
+    string map = 1; // The 2D map of the land in string format (could represent the grid)
+}
+
+message CommandResponse {
+    string commands = 1; // A string of commands like "RMLMMMMMDLMMRMD"
+}
+
+message MineSerialResponse {
+    string serial_number = 1; // Mine serial number
+}
+

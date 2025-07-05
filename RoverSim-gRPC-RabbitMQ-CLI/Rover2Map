@@ -1,0 +1,11 @@
+Rover ID: 2
+Rover Moves:MRDRMMLMLRDRLLMRLLMMRDLMLDMLDLDLDLRLMRLMMRMRLMLMLMDMRLRMMMMMMM
+Rover Path: 
+* * * 
+* * * 
+1 0 0 
+0 0 0 
+Rover Alive? True
+
+Mine Disarm info:
+b'Mine with id = 1 and serial number 3kd765q99e disarmed at position (0, 1) with pin 009Ug097'
