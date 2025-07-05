@@ -64,7 +64,19 @@ uvicorn Fastapi_Rover_Server:app --reload
 # API Root: http://127.0.0.1:8000
 # Swagger UI: http://127.0.0.1:8000/docs
 ```
-### 🌐 Frontend Setup (React
-'''bash
+### 🌐 Frontend Setup (React)
+
+```bash
+# Navigate to the frontend directory
+cd frontend
+
+# Install all dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+###📸 Preview
+
 
 
