@@ -79,6 +79,16 @@ npm run dev
 ```
 ## 🚀 Getting Started (w/ CLI)
 
+```bash
+# Navigate to the frontend directory
+cd frontend
+
+# Install all dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
 
 
 ### 📸 Preview / Result
