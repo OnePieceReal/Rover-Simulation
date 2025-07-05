@@ -11,16 +11,14 @@
 
 ## 📑 Table of Contents
 
-- [📸 Preview](#-preview)
-- [📦 Technologies Used](#-technologies-used)
+
 - [📜 Project Description](#-project-description)
 - [🧭 Commands](#-commands)
 - [💣 Mine Disarmament](#-mine-disarmament)
 - [🚀 Getting Started](#-getting-started)
   - [🔧 Backend Setup (FastAPI)](#-backend-setup-fastapi)
   - [🌐 Frontend Setup (React)](#-frontend-setup-react)
-- [📁 Project Structure](#-project-structure)
-- [📚 License](#-license)
+- [📸 Preview](#-preview)
 
 ---
 
