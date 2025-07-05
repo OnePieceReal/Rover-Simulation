@@ -18,7 +18,7 @@
 - [🚀 Getting Started](#-getting-started)
   - [🔧 Backend Setup (FastAPI Server)](#-backend-setup-fastapi-server)
   - [🌐 Frontend Setup (React)](#-frontend-setup-react)
-- [📸 Preview](#-preview)
+- [📸 Preview/Result](#-preview-result)
 
 ---
 
@@ -76,7 +76,19 @@ npm install
 # Start the development server
 npm run dev
 ```
-### 📸 Preview
+### 📸 Preview/Result
 
 
+<p align="center">
+  <img src="Preview/map-mine.PNG" width="800"/>
+</p>
 
+<p align="center">
+  <img src="Preview/rover.PNG" width="800"/>
+</p>
+<p align="center">
+  <img src="Preview/rover-8.PNG" width="800"/>
+</p>
+<p align="center">
+  <img src="Preview/rover-10.PNG" width="800"/>
+</p>
