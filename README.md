@@ -16,7 +16,7 @@
 - [🧭 Commands](#-commands)
 - [💣 Mine Disarmament](#-mine-disarmament)
 - [🚀 Getting Started](#-getting-started)
-  - [🔧 Backend Setup (FastAPI)](#-backend-setup-fastapi)
+  - [🔧 Backend Setup (FastAPI Server)](#-backend-setup-fastapi-server)
   - [🌐 Frontend Setup (React)](#-frontend-setup-react)
 - [📸 Preview](#-preview)
 
@@ -52,7 +52,7 @@ This mimics a basic **proof-of-work** algorithm similar to blockchain mining.
 
 ## 🚀 Getting Started
 
-### 🔧 Backend Setup (FastAPI)
+### 🔧 Backend Setup (FastAPI Server)
 
 ```bash
 # Install FastAPI and Uvicorn
@@ -63,4 +63,8 @@ uvicorn Fastapi_Rover_Server:app --reload
 
 # API Root: http://127.0.0.1:8000
 # Swagger UI: http://127.0.0.1:8000/docs
+```
+### 🌐 Frontend Setup (React
+'''bash
+
 
