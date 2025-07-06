@@ -26,7 +26,7 @@
 
 ## 📜 Project Description
 
-This project simulates a 2D rover navigating a terrain filled with hidden mines. The rover interprets movement commands, avoids obstacles, and disarms mines using a proof-of-work-based hashing mechanism.
+This project simulates a 2D rover navigating a terrain filled with hidden mines. The rover interprets movement commands, and disarms mines using a proof-of-work-based hashing mechanism.
 
 ---
 
