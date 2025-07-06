@@ -18,7 +18,7 @@
 - [🚀 Getting Started (w/ FastAPI)](#-getting-started-w-fastapi)
   - [🔧 Backend Setup (FastAPI Server)](#-backend-setup-fastapi-server)
   - [🌐 Frontend Setup (React)](#-frontend-setup-react)
-- [🚀 Getting Started (w/ CLI)](#-getting-started-w-cli)  
+- [💻  CLI simulation](#-cli-simulation)  
 - [📸 Preview / Result](#-preview--result)
 
 ---
@@ -77,7 +77,7 @@ npm install
 # Start the development server
 npm run dev
 ```
-## 🚀 Getting Started (w/ CLI)
+## 💻 CLI simulation
 
 ```bash
 # Pull and run the official RabbitMQ image with the management plugin enabled
