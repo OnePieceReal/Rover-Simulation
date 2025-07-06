@@ -13,8 +13,8 @@
 
 
 - [📜 Project Description](#-project-description)
-- [📜 Rules](#-rules)
 - [🧭 Commands](#-commands)
+-  [📜 Rules](#-rules)
 - [💣 Mine Disarmament](#-mine-disarmament)
 - [🚀 Getting Started (w/ FastAPI)](#-getting-started-w-fastapi)
   - [🔧 Backend Setup (FastAPI Server)](#-backend-setup-fastapi-server)
@@ -30,20 +30,21 @@ This project simulates a 2D rover navigating a terrain filled with hidden mines.
 
 ---
 
-## 📜 Rules 
-- The rover initially faces **south**.  
-- The **L** or **R** command turns the rover **90 degrees counterclockwise** or **clockwise**, respectively, from its current direction.  
-- If the rover steps on a **mine** and moves in any direction **without disarming it**, the rover **explodes**, and all remaining commands are ignored. *(Note: only the **M** command can trigger a mine—**L** and **R** do not.)*  
-- If the rover uses the **dig** command while **not on a mine**, nothing happens; the command is ignored and the next one is read.  
-- If the rover steps on a mine and chooses to disarm it, follow the steps in [💣 Mine Disarmament](#-mine-disarmament).  
 
----
 ## 🧭 Commands
 
 - `L` — Turn the rover left
 - `R` — Turn the rover right
 - `M` — Move forward one step in the current direction
 - `D` — Dig and attempt to disarm a mine at the current location
+
+---
+## 📜 Rules 
+- The rover initially faces **south**.  
+- The **L** or **R** command turns the rover **90 degrees counterclockwise** or **clockwise**, respectively, from its current direction.  
+- If the rover steps on a **mine** and moves in any direction **without disarming it**, the rover **explodes**, and all remaining commands are ignored. *(Note: only the **M** command can trigger a mine—**L** and **R** do not.)*  
+- If the rover uses the **dig** command while **not on a mine**, nothing happens; the command is ignored and the next one is read.  
+- If the rover steps on a mine and chooses to disarm it, follow the steps in [💣 Mine Disarmament](#-mine-disarmament).  
 
 ---
 
